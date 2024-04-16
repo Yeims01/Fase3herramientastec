@@ -1,4 +1,29 @@
 # Productividad basada en herramientas tec Fase 3
+
+--ARQUITECTURA DE LA APLICACION--
+
+1. **Modelo**: La lógica de negocio y los datos de la aplicación se encuentran en el modelo. 
+En este caso, la lógica de cálculo del CPH se encuentra en la clase `SecureCPHCalculator`. 
+Esta clase maneja la operacion para calcular el CPH basado en la entrada del usuario y determina el color del resultado en función del valor del CPH.
+
+2. **Vista**: La interfaz de usuario que el usuario ve y con la que interactúa se encuentra en la vista. 
+En este caso, la vista está representada por las ventanas y componentes de Swing, como `JFrame`, `JPanel`, `JButton`, `JLabel` y `JTextField`. 
+La interfaz de usuario muestra los campos para ingresar los casos por hora y el botón de cálculo del CPH.
+
+3. **Controlador**: El controlador actúa como intermediario entre el modelo y la vista. 
+En este caso, la lógica para manejar las interacciones del usuario y actualizar la vista se encuentra en los eventos de acción de los componentes de Swing. 
+Por ejemplo, el controlador maneja el evento de clic del botón de cálculo del CPH y llama al método correspondiente en el modelo para realizar el cálculo.
+
+4. **Autenticación**: En la rama "authentication", se agrega una capa adicional para manejar la autenticación de usuarios. 
+Esta capa incluye la lógica para verificar las credenciales ingresadas por el usuario y permitir el acceso a la aplicación solo a usuarios autorizados. 
+La interfaz de inicio de sesión (`JTextField`, `JPasswordField` y `JButton`) y la lógica para autenticar al usuario se implementan en esta parte de la aplicación.
+
+
+
+--CODIGO DE LA APLICACION--
+
+
+
  import javax.swing.*;
 import java.awt.*;
 import java.util.HashMap;
