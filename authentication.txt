@@ -1,0 +1,61 @@
+import javax.swing.*;
+import java.awt.*;
+
+public class SecureCPHCalculator extends JFrame {
+    private JTextField usernameField;
+    private JPasswordField passwordField;
+    private JButton loginButton;
+    private JPanel loginPanel;
+
+    private Map<String, String> userCredentials;
+
+    public SecureCPHCalculator() {
+        setTitle("Secure CPH Calculator");
+        setSize(300, 200);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+
+        // Inicializar la base de datos de credenciales de usuario
+        userCredentials = new HashMap<>();
+        userCredentials.put("Admin", "1234");
+
+        // Panel de inicio de sesión
+        loginPanel = new JPanel(new GridLayout(3, 2));
+        loginPanel.setBackground(Color.LIGHT_GRAY);
+
+        JLabel usernameLabel = new JLabel("Username:");
+        loginPanel.add(usernameLabel);
+        usernameField = new JTextField();
+        loginPanel.add(usernameField);
+
+        JLabel passwordLabel = new JLabel("Password:");
+        loginPanel.add(passwordLabel);
+        passwordField = new JPasswordField();
+        loginPanel.add(passwordField);
+
+        loginButton = new JButton("Login");
+        loginButton.addActionListener(e -> authenticate());
+        loginPanel.add(loginButton);
+
+        // Mostrar el panel de inicio de sesión por defecto
+        setContentPane(loginPanel);
+
+        setVisible(true);
+    }
+
+    private void authenticate() {
+        String username = usernameField.getText();
+        String password = new String(passwordField.getPassword());
+
+        if (userCredentials.containsKey(username) && userCredentials.get(username).equals(password)) {
+            // Credenciales correctas, realizar acción deseada
+            // Por ejemplo, cambiar a otra vista o cargar la calculadora
+        } else {
+            // Credenciales incorrectas, mostrar un mensaje de error
+            JOptionPane.showMessageDialog(this, "Invalid username or password", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(SecureCPHCalculator::new);
+    }
+}
