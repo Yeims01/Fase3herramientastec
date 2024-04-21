@@ -22,12 +22,12 @@ En esta seccion, realice un diagrama de la arquitectura de la aplicacion, y tamb
 ![image](https://github.com/Yeims01/Fase3herramientastec/assets/157261329/50662845-1d56-47ea-9709-a0cfd49759ef)
 
 ## Tabla de Contenidos
-- [Requerimientos](https://github.com/Yeims01/Fase3herramientastec/edit/develop/README.md#requerimientos)
-- [Instalacion](https://github.com/Yeims01/Fase3herramientastec/edit/develop/README.md#instalacion)
-- [Configuracion](https://github.com/Yeims01/Fase3herramientastec/edit/develop/README.md#configuracion)
-- [Uso](https://github.com/Yeims01/Fase3herramientastec/edit/develop/README.md#uso)
-- [Contribucion](https://github.com/Yeims01/Fase3herramientastec/edit/develop/README.md#contribucion)
-- [Roadmap](https://github.com/Yeims01/Fase3herramientastec/edit/develop/README.md#roadmap)
+- [Requerimientos](https://github.com/Yeims01/Fase3herramientastec/develop/README.md#requerimientos)
+- [Instalacion](https://github.com/Yeims01/Fase3herramientastec/develop/README.md#instalacion)
+- [Configuracion](https://github.com/Yeims01/Fase3herramientastec/develop/README.md#configuracion)
+- [Uso](https://github.com/Yeims01/Fase3herramientastec/develop/README.md#uso)
+- [Contribucion](https://github.com/Yeims01/Fase3herramientastec/develop/README.md#contribucion)
+- [Roadmap](https://github.com/Yeims01/Fase3herramientastec/develop/README.md#roadmap)
 
 ## Requerimientos
 Para una ejecucion de la aplicacion, simplemente es necesario tener la version de Java mas reciente instalada, de esa forma, el programa podra ser ejecutado, no obstante, adjunto detalles adicionales:
