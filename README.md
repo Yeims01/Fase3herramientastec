@@ -37,6 +37,8 @@ Para una ejecucion de la aplicacion, simplemente es necesario tener la version d
 
 ## Instalacion
 
+**NOTA: LA UBICACION DEL CODIGO SE ENCUENTRA EN: (https://github.com/Yeims01/Fase4herramientastec/blob/develop/src/CPHCalculator.java) YA QUE ES DONDE SE ENCUENTRA EL ARCHIVO A EJECUTAR.**
+
 Para poder instalar y utilizar el programa, puedes seguir los siguientes pasos:
 
 1. Clonar el repositorio en tu computadora utilizando el siguiente comando dentro de Git Bash o CMD: "git clone https://github.com/Yeims01/Fase4herramientastec.git"
