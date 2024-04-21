@@ -37,26 +37,16 @@ Para una ejecucion de la aplicacion, simplemente es necesario tener la version d
 
 ## Instalacion
 
-Para instalar el programa, solo se requiere descargar el archivo ZIP, el cual contiene todos los recursos necesarios para que la aplicacion pueda ejecutarse de forma local, puede descargarse desde la seccion de "Release" seleccionando la version de v1.1
+Para poder instalar y utilizar el programa, puedes seguir los siguientes pasos:
 
-Otra opcion de instalacion, puede ser la siguiente, aunque un poco mas compleja:
-
-1. Clonar el repositorio en tu computadora utilizando el siguiente comando dentro de Git Bash o CMD: "git clone https://github.com/tu-usuario/Fase3herramientastec"
-2. Una vez clonado, puedes abrirlo utilizando tu herramienta de desarrollo preferida, sin embargo, es recomendable que sea dentro de IntelliJ Idea o Eclipse IDE.
+1. Clonar el repositorio en tu computadora utilizando el siguiente comando dentro de Git Bash o CMD: "git clone https://github.com/Yeims01/Fase4herramientastec.git"
+2. Una vez clonado, puedes abrirlo utilizando tu herramienta de desarrollo preferida, sin embargo, es recomendable que sea principalmente dentro de IntelliJ Idea o Eclipse IDE.
 
 ## Configuracion
 No es necesaria algun tipo de configuracion para poder ejecutar la aplicacion.
 
 ## Uso
-- Utilizando el ejecutable
-  Simplemente tienes que abrir el ejecutable que se encuentra dentro del archivo zip, de esa forma, abriras la aplicacion y podras utilizarla.
-  Proceso para utilizar:
-  1. Inserta tu usuario y contraseña (**NOTA: Debido a que la autenticacion esta en fase experimental, por favor utiliza el usuario: Admin y la contraseña: 1234**)
-  2. Llena los campos del CPH dependiendo de los casos realizados en las horas indicadas.
-  3. Presiona el boton de "Calculate"
-  4. Listo, obtendras los resultados de tu CPH, los cuales podras insertar en tu tracker de trabajo :)
-
-- Ejecutandolo desde algun ambiente de desarrollo
+- Ejecutandolo desde IntelliJ o Eclipse IDE
   1. Abre el proyecto en tu ambiente de desarrollo.
   2. Compila y ejecuta la clase CPHCalculator para iniciar la aplicación.
   3. Ingresa el número de casos por hora en los campos proporcionados.
