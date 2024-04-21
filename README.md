@@ -22,7 +22,7 @@ En esta seccion, realice un diagrama de la arquitectura de la aplicacion, y tamb
 ![image](https://github.com/Yeims01/Fase3herramientastec/assets/157261329/50662845-1d56-47ea-9709-a0cfd49759ef)
 
 ## Tabla de Contenidos
-- [Requerimientos](https://github.com/Yeims01/Fase3herramientastec/develop/README.md#requerimientos)
+- [Requerimientos](https://github.com/Yeims01/Fase3herramientastec?tab=readme-ov-file#requerimientos)
 - [Instalacion](https://github.com/Yeims01/Fase3herramientastec/develop/README.md#instalacion)
 - [Configuracion](https://github.com/Yeims01/Fase3herramientastec/develop/README.md#configuracion)
 - [Uso](https://github.com/Yeims01/Fase3herramientastec/develop/README.md#uso)
