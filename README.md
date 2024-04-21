@@ -23,11 +23,11 @@ En esta seccion, realice un diagrama de la arquitectura de la aplicacion, y tamb
 
 ## Tabla de Contenidos
 - [Requerimientos](https://github.com/Yeims01/Fase3herramientastec?tab=readme-ov-file#requerimientos)
-- [Instalacion](https://github.com/Yeims01/Fase3herramientastec/develop/README.md#instalacion)
-- [Configuracion](https://github.com/Yeims01/Fase3herramientastec/develop/README.md#configuracion)
-- [Uso](https://github.com/Yeims01/Fase3herramientastec/develop/README.md#uso)
-- [Contribucion](https://github.com/Yeims01/Fase3herramientastec/develop/README.md#contribucion)
-- [Roadmap](https://github.com/Yeims01/Fase3herramientastec/develop/README.md#roadmap)
+- [Instalacion](https://github.com/Yeims01/Fase3herramientastec?tab=readme-ov-file#instalacion)
+- [Configuracion](https://github.com/Yeims01/Fase3herramientastec?tab=readme-ov-file#configuracion)
+- [Uso](https://github.com/Yeims01/Fase3herramientastec?tab=readme-ov-file#uso)
+- [Contribucion](https://github.com/Yeims01/Fase3herramientastec?tab=readme-ov-file#contribucion)
+- [Roadmap](https://github.com/Yeims01/Fase3herramientastec?tab=readme-ov-file#roadmap)
 
 ## Requerimientos
 Para una ejecucion de la aplicacion, simplemente es necesario tener la version de Java mas reciente instalada, de esa forma, el programa podra ser ejecutado, no obstante, adjunto detalles adicionales:
