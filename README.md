@@ -51,7 +51,7 @@ No es necesaria algun tipo de configuracion para poder ejecutar la aplicacion.
 - Ejecutandolo desde IntelliJ o Eclipse IDE
   1. Abre el proyecto en tu ambiente de desarrollo.
   2. Compila y ejecuta la clase CPHCalculator para iniciar la aplicación.
-  3. Para autenticarte, utiliza "Admin" como nombre de usuario y "1234" como contraseña.
+  3. Para autenticarte, utiliza "Admin" como Username y "1234" como Password.
   4. Ingresa el número de casos por hora en los campos proporcionados.
   5. Haz clic en el botón "Calculate" para obtener el promedio de casos por hora (CPH).
 
