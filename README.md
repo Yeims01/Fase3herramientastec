@@ -32,7 +32,7 @@ En esta seccion, realice un diagrama de la arquitectura de la aplicacion, y tamb
 ## Requerimientos
 Para una ejecucion de la aplicacion, simplemente es necesario tener la version de Java mas reciente instalada, de esa forma, el programa podra ser ejecutado, no obstante, adjunto detalles adicionales:
 
-- Java Development Kit (JDK) 8 o superior.
+- Java Development Kit (JDK) 11 o superior.
 - Entorno de desarrollo IntelliJ IDEA o Eclipse.
 
 ## Instalacion
